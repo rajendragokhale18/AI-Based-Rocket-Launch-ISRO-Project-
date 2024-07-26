@@ -1,0 +1,65 @@
+/* Tailwind CSS is assumed to be used, additional custom styles can be added below */
+
+body {
+    background-color: #f7fafc; /* Light gray background */
+    font-family: 'Inter', sans-serif; /* Font family for better readability */
+}
+
+h1 {
+    font-size: 1.875rem; /* 3xl */
+    font-weight: 700; /* bold */
+    color: #1a202c; /* Gray 900 */
+}
+
+button {
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #4a5568; /* Darker gray */
+}
+
+.dark h1 {
+    color: #fff;
+}
+
+.dark button:hover {
+    background-color: #2d3748; /* Darker gray for dark mode */
+}
+
+.grid > div {
+    transition: transform 0.3s;
+}
+
+.grid > div:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+}
+
+.text-xl {
+    font-size: 1.25rem; /* xl */
+    font-weight: 600; /* semi-bold */
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.dark .bg-white {
+    background-color: #2d3748; /* Dark gray background in dark mode */
+}
+
+.border-gray-200 {
+    border-color: #edf2f7;
+}
+
+.dark .border-gray-200 {
+    border-color: #4a5568; /* Darker border in dark mode */
+}
+
+.text-gray-500 {
+    color: #a0aec0; /* Light gray text */
+}
+
+.dark .text-gray-500 {
+    color: #718096; /* Darker gray text in dark mode */
+}
